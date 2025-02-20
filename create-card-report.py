@@ -7,7 +7,7 @@ from time import sleep
 from datetime import datetime, timedelta, date
 import pytz
 
-URI = 'https://api-staging.airwallex.com/api/v1'
+URI = 'https://api.airwallex.com/api/v1'
 
 config = configparser.ConfigParser()
 config.read('report.cfg')
